@@ -12,7 +12,7 @@ Setting this system up is extremely simple.
 * **Step 1.** Click "Use this template" -> "Create a new repository" and enter your repository name, description etc.
 * **Step 2.** Change Variables within the repository:
     * **Step 2.1**. Open ".github\workflows\build_and_release.yml" and change the variable "OUTPUT_NAME" to be the name of your marker pack such as "OUTPUT_NAME: example" will output a file called example.taco on release.
-    * **Step 2.2**. Open "install.bat" and change the two variables near the top of the file. One is called "targetLocation" which is the path of where your marker packs are loaded from Taco or Blish HUD, this is where the script will install your marker pack to be tested. Finally, change the "fileName" variable to be the name of your marker pack, it ideally should match with the above changed "OUTPUT_NAME".
+    * **Step 2.2**. Open "install.bat" and change the two variables near the top of the file. One is called "targetLocation" which is the path of where your marker packs are loaded by TacO or Blish HUD, this is where the script will install your marker pack to be tested. Finally, change the "fileName" variable to be the name of your marker pack, it ideally should match with the above changed "OUTPUT_NAME".
 * **Step 3.** Change README.md to fit your marker pack.
 
 
