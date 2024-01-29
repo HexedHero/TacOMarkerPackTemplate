@@ -1,4 +1,4 @@
-# 🌮 TacO Marker Pack Template
+# 🌮 TacO Marker Pack Template / TMPT
 
 This is a template for a [TacO](https://www.gw2taco.com/)/[Blish HUD](https://blishhud.com/) Marker Pack that features:
 * Auto Building and Releasing - Publish your marker pack automatically with GitHub actions and releases.
