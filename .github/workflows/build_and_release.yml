@@ -10,7 +10,7 @@ env:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: "startsWith(github.event.head_commit.message, '[CI-BUILD]')"
+    if: startsWith(github.event.head_commit.message, '[CI-BUILD]')
     permissions: write-all
     steps:
       - name: Checkout code
