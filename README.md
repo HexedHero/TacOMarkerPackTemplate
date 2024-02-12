@@ -20,6 +20,8 @@ Setting this system up is extremely simple.
 
 Make your marker pack as normal, you're still able to use multiple XML files, folders etc. while keeping a "[Unreleased]" section in your CHANGELOG.md and updating it with the development of your marker pack, this is what will be published with the future release of your marker pack.
 
+If you're using Blish HUD then feel free to check out my [Marker Pack Assistant Module](https://blishhud.com/modules/?module=HexedHero.Blish_HUD.MarkerPackAssistant) that can provide you with useful information as well as automate the batch script process and reload markers.
+
 The CHANGELOG.md follows the format of [keep a changelog](https://keepachangelog.com/).  
 Changelog Example:
 ```
